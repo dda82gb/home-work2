@@ -18,6 +18,7 @@ int B = y2 - y1;
 int C = z2 - z1;
 
 double length =  Math.Sqrt(A * A + B * B + C * C);
+Console.ForegroundColor = ConsoleColor.Blue;
 Console.WriteLine("Расстояние = " + length);
  
 int Coordinate (string mes)

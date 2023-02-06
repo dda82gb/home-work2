@@ -9,7 +9,7 @@
 Console.Clear();
 Console.ForegroundColor = ConsoleColor.Blue;
 Console.WriteLine ("Введите пятизначное число: ");
-string num = Console.ReadLine();
+string num = Console.ReadLine()!;
 int pal = num.Length;
 
 if (pal == 5)
